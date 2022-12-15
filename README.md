@@ -2,7 +2,7 @@
 
 #### By doublespoiler/Skylan Lew
 
-#### Personal Preonic 5x12 keymap firmware. Includes 
+#### Personal Preonic 5x12 keymap firmware.  
 
 ## Technologies Used
 
@@ -12,6 +12,10 @@
 * C
 
 ## Description
+
+The idea was to make a layout I could use for programming and gaming, because I don't like toggle layers.
+QWERTY layer is standard, with a dedicated enter key, because I'm still trying to figure out my dynamic tapping rate. 
+The Dynamic Tapping Rate can be changed with FN+0,-, and printed with fn+bksp, default is 200ms
 
 ```
 QWERTY Layer
@@ -42,9 +46,9 @@ QWERTY Layer
 
  function
  * ,-----------------------------------------------------------------------------------.
- * |  `   |xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|DT DOWN|DTUP|
+ * |  `   |xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|DT DOWN|DT UP|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|DTPRINT|
+ * |xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|xxxxxx|DTPRNT|
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |  f1  |  f2  |   f3 |   f4 |  f5  |  f6  |  f7  |  f8  |  f9  | f10  |  f11 | f12  |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
@@ -62,11 +66,11 @@ QWERTY Layer
 * Drag and drop the .bin file from my_firmware into QMK toolbox
   * Reset keyboard
   * Flash
-* The original keymap.c is located in /keyboards/preonic/keymaps/doubespoiler for editing. Please see original QMK documentation for editing instructions and keycodes
+* The original keymap.c is located in /keyboards/preonic/keymaps/doubespoiler for editing. Please see [original QMK documentation](https://docs.qmk.fm/#/) for editing instructions and keycodes
 
 ## Known Bugs
 
-* I tried to get sound to work, but it didn't
+* Sound settings are included, but I have them turned off.
 
 ## License
 
